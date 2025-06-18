@@ -7,6 +7,7 @@ public class Content : BaseEntity
     public string Description { get; private set; }
     public DateOnly PublishDate { get; private set; }
     public TimeOnly PublishTime { get; private set; }
+    public byte[] ContentImage { get; set; }
     public int AuthorName { get; private set; }
 
     public Content()
