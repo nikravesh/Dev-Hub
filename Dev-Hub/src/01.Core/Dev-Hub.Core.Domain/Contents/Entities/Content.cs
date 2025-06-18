@@ -10,7 +10,7 @@ public class Content : BaseEntity
     public byte[] ContentImage { get; set; }
     public int AuthorName { get; private set; }
 
-    public Content()
+    private Content()
     {
     }
 
