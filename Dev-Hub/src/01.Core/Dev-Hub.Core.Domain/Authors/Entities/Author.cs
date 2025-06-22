@@ -1,5 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
+﻿using Dev_Hub.Core.Domain.Contents.Entities;
 using Dev_Hub.Core.Domain.Framework.Entities;
 
 namespace Dev_Hub.Core.Domain.Authors.Entities;
@@ -7,6 +6,8 @@ public class Author : BaseEntity
 {
     public string FirstName { get; private set; }
     public string LastName { get; private set; }
+
+    public ICollection<Content> Contents { get; private set; }
 
     private Author() { }
 
