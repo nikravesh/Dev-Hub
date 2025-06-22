@@ -19,4 +19,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\Dev-Hub.Core.Domain\Dev-Hub.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\02.Infra\Data\Dev-Hub.Infra.Data.Command.Sql\Dev-Hub.Infra.Data.Command.Sql.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,13 +1,15 @@
-﻿using Dev_Hub.Core.Domain.Framework.Entities;
+﻿using Dev_Hub.Core.Domain.Contents.Entities;
+using Dev_Hub.Core.Domain.Framework.Entities;
 
 namespace Dev_Hub.Core.Domain.Comments.Entities;
 public class Comment : BaseEntity
 {
     public string FirstName { get; private set; }
     public string LastName { get; private set; }
-    public string Comments { get; private set; }
+    public string CommentContent { get; private set; }
     public DateOnly CommentDate { get; private set; }
     public TimeOnly CommentTime { get; private set; }
+    public bool IsPublish { get; private set; }
 
     private Comment() { }
 
@@ -20,9 +22,10 @@ public class Comment : BaseEntity
     {
         FirstName = firstName;
         LastName = lastName;
-        Comments = comment;
+        CommentContent = comment;
         CommentDate = commentDate;
         CommentTime = commentTime;
+        IsPublish = false;
     }
 
     public static Comment Create(
@@ -33,5 +36,5 @@ public class Comment : BaseEntity
         TimeOnly commentTime)
         => new(firstName, lastName, comment, commentDate, commentTime);
 
-    public void Update(string comment) => Comments = comment;
+    public void Update(string comment) => CommentContent = comment;
 }
