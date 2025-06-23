@@ -16,11 +16,10 @@ public class Dev_HubDbContext : DbContext
     public DbSet<Content> Contents { get; set; }
     public DbSet<Comment> Comments { get; set; }
     public DbSet<Tag> Tags { get; set; }
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlServer("Server=.; Database=Dev-HubDb; User Id=*****************;Password=*******************; Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True ");
 
-        base.OnConfiguring(optionsBuilder);
+    public Dev_HubDbContext(DbContextOptions<Dev_HubDbContext> options):base(options)
+    {
+        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
