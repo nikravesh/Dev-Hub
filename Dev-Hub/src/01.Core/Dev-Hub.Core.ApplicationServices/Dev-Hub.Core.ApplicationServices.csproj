@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Authors\" />
+    <Folder Include="Comments\" />
+    <Folder Include="Contents\" />
+    <Folder Include="Tags\" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,7 @@
 ﻿using Dev_Hub.Core.Domain.Authors.Entities;
+using Dev_Hub.Core.Domain.Comments.Entities;
 using Dev_Hub.Core.Domain.Framework.Entities;
+using Dev_Hub.Core.Domain.Tags.Entities;
 
 namespace Dev_Hub.Core.Domain.Contents.Entities;
 public class Content : BaseEntity
@@ -10,6 +12,8 @@ public class Content : BaseEntity
     public TimeOnly PublishTime { get; private set; }
     public byte[] ContentImage { get; private set; }
     public ICollection<Author> Authors { get; private set; }
+    public ICollection<Comment> Comments { get; private set; }
+    public ICollection<Tag> Tags { get; private set; }
 
     private Content()
     {

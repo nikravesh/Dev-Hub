@@ -404,3 +404,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Dev-Hub/src/03.Endpoints/Dev-Hub.Endpoints.API/appsettings.Development.json

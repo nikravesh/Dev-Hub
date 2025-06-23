@@ -7,4 +7,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Authors\Queries\" />
+    <Folder Include="Authors\QueryResults\" />
+    <Folder Include="Comments\Queries\" />
+    <Folder Include="Comments\QueryResults\" />
+    <Folder Include="Contents\Queries\" />
+    <Folder Include="Contents\QueryResults\" />
+    <Folder Include="Tags\Queries\" />
+    <Folder Include="Tags\QueryResults\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dev-Hub.Core.Domain\Dev-Hub.Core.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
