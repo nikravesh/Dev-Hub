@@ -14,7 +14,6 @@
     <Folder Include="Comments\QueryResults\" />
     <Folder Include="Contents\Queries\" />
     <Folder Include="Contents\QueryResults\" />
-    <Folder Include="Contents\Repositories\" />
     <Folder Include="Tags\Queries\" />
     <Folder Include="Tags\QueryResults\" />
     <Folder Include="Tags\Repositories\" />
