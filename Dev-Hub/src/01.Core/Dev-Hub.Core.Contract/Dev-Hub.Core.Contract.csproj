@@ -10,7 +10,6 @@
   <ItemGroup>
     <Folder Include="Authors\Queries\" />
     <Folder Include="Authors\QueryResults\" />
-    <Folder Include="Authors\Repositories\" />
     <Folder Include="Comments\Queries\" />
     <Folder Include="Comments\QueryResults\" />
     <Folder Include="Comments\Repositories\" />

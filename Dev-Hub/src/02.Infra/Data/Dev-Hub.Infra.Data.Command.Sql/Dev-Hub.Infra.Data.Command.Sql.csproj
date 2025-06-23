@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\01.Core\Dev-Hub.Core.Contract\Dev-Hub.Core.Contract.csproj" />
     <ProjectReference Include="..\..\..\01.Core\Dev-Hub.Core.Domain\Dev-Hub.Core.Domain.csproj" />
   </ItemGroup>
 
