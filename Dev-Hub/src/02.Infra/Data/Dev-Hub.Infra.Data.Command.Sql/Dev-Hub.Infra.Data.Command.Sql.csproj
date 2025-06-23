@@ -17,8 +17,4 @@
     <ProjectReference Include="..\..\..\01.Core\Dev-Hub.Core.Domain\Dev-Hub.Core.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Authors\Repositories\" />
-  </ItemGroup>
-
 </Project>

@@ -21,4 +21,8 @@
     <Folder Include="Tags\Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Dev-Hub.Core.Domain\Dev-Hub.Core.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
