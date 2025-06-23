@@ -16,7 +16,6 @@
     <Folder Include="Contents\QueryResults\" />
     <Folder Include="Tags\Queries\" />
     <Folder Include="Tags\QueryResults\" />
-    <Folder Include="Tags\Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
