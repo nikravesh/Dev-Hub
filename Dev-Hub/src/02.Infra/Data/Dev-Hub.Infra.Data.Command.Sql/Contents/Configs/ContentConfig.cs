@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Dev_Hub.Infra.Data.Command.Sql.Contents.Configs;
-public class ContentConfig : IEntityTypeConfiguration<Content>
+internal class ContentConfig : IEntityTypeConfiguration<Content>
 {
     public void Configure(EntityTypeBuilder<Content> builder)
     {

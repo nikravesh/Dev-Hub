@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Dev_Hub.Infra.Data.Command.Sql.Tags.Configs;
-public class TagConfig : IEntityTypeConfiguration<Tag>
+internal class TagConfig : IEntityTypeConfiguration<Tag>
 {
     public void Configure(EntityTypeBuilder<Tag> builder)
     {

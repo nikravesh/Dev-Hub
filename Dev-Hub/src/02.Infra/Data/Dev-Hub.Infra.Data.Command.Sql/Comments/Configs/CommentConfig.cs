@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Dev_Hub.Infra.Data.Command.Sql.Comments.Configs;
-public class CommentConfig : IEntityTypeConfiguration<Comment>
+internal class CommentConfig : IEntityTypeConfiguration<Comment>
 {
     public void Configure(EntityTypeBuilder<Comment> builder)
     {

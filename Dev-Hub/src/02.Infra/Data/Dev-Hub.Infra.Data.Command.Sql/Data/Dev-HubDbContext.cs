@@ -18,7 +18,7 @@ public class Dev_HubDbContext : DbContext
     public DbSet<Tag> Tags { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=.; Database=Dev-HubDb; User Id=**********;Password=************; Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True ");
+        optionsBuilder.UseSqlServer("Server=.; Database=Dev-HubDb; User Id=*****************;Password=*******************; Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True ");
 
         base.OnConfiguring(optionsBuilder);
     }

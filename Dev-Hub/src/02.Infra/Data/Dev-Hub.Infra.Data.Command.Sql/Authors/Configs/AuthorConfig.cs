@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Dev_Hub.Infra.Data.Command.Sql.Authors.Configs;
-public class AuthorConfig : IEntityTypeConfiguration<Author>
+internal class AuthorConfig : IEntityTypeConfiguration<Author>
 {
     public void Configure(EntityTypeBuilder<Author> builder)
     {
